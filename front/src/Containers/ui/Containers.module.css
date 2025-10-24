@@ -1,0 +1,55 @@
+:root {
+  --containerFontSize: 42px;
+  --containerFontFamily: 'Roboto', sans-serif;
+  --containerFontWeight: bold;
+  --containerMaxWidth: 320px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: var(--containerMaxWidth);
+  padding: 15px;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  background-color: white;
+  border: 2px solid #333;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: var(--containerFontSize); /* This must not be changed */
+  font-weight: var(--containerFontWeight);
+  color: #333;
+  word-break: keep-all !important;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+}
+
+.containers {
+  padding: '20px';
+  font-family: var(--containerFontFamily);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+}
+
+.desc {
+  max-width: 800px;
+  margin-bottom: 30px;
+}
